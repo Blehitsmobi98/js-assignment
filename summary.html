@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h2 id="query1"></h2>
+        <h2 id="query2"></h2>
+        <h2 id="query3"></h2>
+        <h2 id="query4"></h2>
+        <h2 id="query5"></h2>
+        
+        <script>
+            var params = new URLSearchParams(location.search);
+            let i = 1;
+            for(const [key,value] of params){
+                document.getElementById("query" + i).innerHTML = key + " : " + value;
+                i++;
+            }
+        </script>
+    </body>
+</html>

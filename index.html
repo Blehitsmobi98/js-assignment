@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Pakistan</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+
+        <div class="forms">
+            <div class="formsleft">
+                <div>
+                    <h3>Fill your interests</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+                <form action="#">
+                    <div>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" placeholder="Enter your full name">
+                    </div>
+    
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+    
+                    <div>
+                        <label for="dob">DOB</label><br>
+                        <input type="date" id="dob">
+                    </div>
+    
+                    <div>
+                        <label for="interest">Select your Interest</label><br>
+                        <select name="interest" id="interest">
+                            <option value="">Select</option>
+                            <option value="saab">SQA</option>
+                            <option value="mercedes">WEB</option>
+                            <option value="audi">MERN</option>
+                          </select>
+                    </div>
+    
+                    <div>
+                        <input type="checkbox" id="individual" name="individual" value="individual">
+                        <label for="individual"> Individual</label>
+                        <input type="checkbox" id="organization" name="organization" value="organization">
+                        <label for="organization"> Organization</label><br>
+                    </div>
+    
+                    <div>
+                        <label for="about">About you</label><br>
+                        <textarea name="about" id="about" cols="30" rows="10"></textarea>
+                    </div>
+    
+                    <div>
+                        <button type="submit" onclick="validate()">
+                            Send Details
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <script src="script.js"></script>
+
+    </body>
+</html>

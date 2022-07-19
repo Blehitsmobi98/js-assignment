@@ -1,0 +1,18 @@
+body{
+    margin: 100px;
+}
+
+.formsleft{
+    float: left;
+    width: 50%;
+}
+
+button{
+    text-decoration: none;
+    color: black;
+    background-color: lightgreen;
+    padding: 5px 25px;
+    margin: 0;
+
+}
+
